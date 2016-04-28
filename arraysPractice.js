@@ -361,6 +361,8 @@ of Data is to have an Array full of objects. */
 
 //Create an empty array called users.
 
+var users = [];
+
   //Code Here
 
 /*Now add three user objects to your users array. Each user object should contain the
@@ -375,6 +377,20 @@ var user1 = {
 };
 
 //Your Code Here
+var user2 = {
+    name: 'Bob Thedragqueen',
+    email: 'bobsboogers@gmail.com',
+    password: 'pursefirst',
+    username: 'theoneandonlybob'
+};
+
+var user2 = {
+    name: 'Gwen Stephani',
+    email: 'nodoubt@tragickingdom.com',
+    password: 'dontspeak',
+    username: 'nodoubt1'
+};
+
 
 /*Now you have a very common data structure. Twitter is a good use case.
 It's easy to imagine that your followers list on Twitter is an Array full or objects
